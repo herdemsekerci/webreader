@@ -1,0 +1,226 @@
+/* Text Styles */
+hr { color: #000000}
+body, table, tr, th /* Normal */
+{
+ font-size: 11pt;
+ font-family: Arial;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.f_CodeExample /* Code Example */
+{
+ font-size: 10pt;
+ font-family: Consolas;
+}
+span.f_CodeExampleComments /* Code Example Comments */
+{
+ font-size: 10pt;
+ font-family: Consolas;
+ color: #008000;
+}
+span.f_CodeExampleParameters /* Code Example Parameters */
+{
+ font-size: 10pt;
+ font-family: Consolas;
+ font-style: italic;
+}
+span.f_CodeExampleTypes /* Code Example Types */
+{
+ font-size: 10pt;
+ font-family: Consolas;
+ color: #0000ff;
+}
+span.f_Comment /* Comment */
+{
+}
+span.f_Definition /* Definition */
+{
+}
+span.f_ExampleText /* Example Text */
+{
+ font-weight: bold;
+ color: #808080;
+}
+span.f_HeadingTopic /* Heading Topic */
+{
+ font-size: 22pt;
+ font-weight: bold;
+ color: #ffffff;
+}
+span.f_Heading1 /* Heading1 */
+{
+ font-size: 16pt;
+ font-weight: bold;
+}
+span.f_Heading2 /* Heading2 */
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #a41e22;
+}
+span.f_ImageCaption /* Image Caption */
+{
+ font-size: 8pt;
+ color: #800000;
+}
+span.f_Menu /* Menu */
+{
+ font-size: 10pt;
+ font-weight: bold;
+ background-color: #e9eaea;
+}
+span.f_Notes /* Notes */
+{
+}
+span.f_NSexamplesheading /* NS examples heading */
+{
+ font-weight: bold;
+ color: #808080;
+}
+span.f_TocHeading /* Toc Heading */
+{
+ font-size: 14pt;
+ font-weight: bold;
+ color: #a41e22;
+}
+span.f_ToggleHeading /* Toggle Heading */
+{
+ font-size: 12pt;
+}
+span.f_YoutubeTable /* Youtube Table */
+{
+ color: #ffffff;
+ background-color: #ff0000;
+}
+/* Paragraph styles */
+p /* Normal */
+{
+ text-align: left;
+ text-indent: 0px;
+ line-height: 1.15;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.p_CodeExample /* Code Example */
+{
+}
+.p_CodeExampleComments /* Code Example Comments */
+{
+}
+.p_CodeExampleParameters /* Code Example Parameters */
+{
+}
+.p_CodeExampleTypes /* Code Example Types */
+{
+}
+.p_Comment /* Comment */
+{
+}
+.p_Definition /* Definition */
+{
+}
+.p_ExampleText /* Example Text */
+{
+}
+.p_HeadingTopic /* Heading Topic */
+{
+}
+.p_Heading1 /* Heading1 */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0px;
+ line-height: 1.15;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.p_Heading2 /* Heading2 */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.p_ImageCaption /* Image Caption */
+{
+ text-align: center;
+ line-height: 1.0;
+ margin: 48px 0px 48px 0px;
+}
+.p_Menu /* Menu */
+{
+ background: #e9eaea;
+}
+.p_Notes /* Notes */
+{
+}
+.p_NSexamplesheading /* NS examples heading */
+{
+}
+.p_TocHeading /* Toc Heading */
+{
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: 1px;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ margin: 0px 0px 24px 0px;
+}
+.p_ToggleHeading /* Toggle Heading */
+{
+ line-height: 1.0;
+ white-space: nowrap;
+ border-color: #dddddd;
+ border-style: solid;
+ border-width: 1px;
+ background: #f9f9f9;
+ padding: 3px 3px 3px 3px;
+ margin: 16px -3px 2px -3px;
+}
+.p_YoutubeTable /* Youtube Table */
+{
+ line-height: 1.0;
+}
+
+
+#hmpopupdiv /* used for javascript text popups */
+{
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  background-color: #FFFFFF;
+  padding: 6px;
+  border:1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #888;
+}
+
+#hmlightbox /* image lightbox */
+{
+  border: none;
+  padding: 8px;
+  background: #FFF;
+  font-size: 110%;
+  font-weight: bold;
+  color: #777;
+  box-shadow: 5px 5px 5px #888;
+}
+
+a.dropdown-toggle /* dropdown toggle caption */
+{
+  cursor: pointer;
+}
+a.inline-toggle /* inline toggle caption */
+{
+  cursor: pointer;
+}
+img.dropdown-toggle-icon /* toggle icon */
+{
+  cursor: pointer;
+}
