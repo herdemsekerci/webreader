@@ -363,7 +363,7 @@ function hmPreloadIcons() {
 function hmCreateVSplitter(leftdiv, rightdiv) {
 
     var splitWidth = ($(rightdiv).offset().left - ($(leftdiv).offset().left+$(leftdiv).outerWidth()));
-    $('body').append('<div id="hmsplitter" style="border:none;margin:0;padding:0;position:absolute;cursor:col-resize;background-color:transparent;background:url(blank.gif);overflow:hidden;'+
+    $('body').append('<div id="hmsplitter" style="border:none;margin:0;padding:0;position:absolute;cursor:col-resize;background-color:transparent;background:url(Page/blank.gif);overflow:hidden;' +
                      'height:'+$(leftdiv).outerHeight()+
                      'px;top:'+$(leftdiv).offset().top+
                      'px;left:'+($(leftdiv).offset().left+$(leftdiv).outerWidth())+

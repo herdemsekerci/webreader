@@ -14,6 +14,12 @@ namespace Books.Controllers
             return View();
         }
 
+  
+        public ActionResult Page(string page)
+        {
+            return new FilePathResult($"~/Book/{page}.html", "text/html");  
+        }
+
         public ActionResult Navigation()
         {
             return View();

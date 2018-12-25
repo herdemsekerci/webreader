@@ -117,25 +117,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Book\blank.gif" />
-    <Content Include="Book\collapsed.png" />
-    <Content Include="Book\custom.css" />
-    <Content Include="Book\default-logo.png" />
-    <Content Include="Book\default.css" />
-    <Content Include="Book\expanded.png" />
-    <Content Include="Book\helpman_navigation.js" />
-    <Content Include="Book\helpman_settings.js" />
-    <Content Include="Book\helpman_topicinit.js" />
-    <Content Include="Book\highlight.js" />
-    <Content Include="Book\jquery.js" />
-    <Content Include="Book\leftArrow.png" />
-    <Content Include="Book\nsh.js" />
-    <Content Include="Book\nt8_contextids.js" />
-    <Content Include="Book\nt_custom.js" />
-    <Content Include="Book\page1.htm" />
-    <Content Include="Book\rightArrow.png" />
-    <Content Include="Book\topic_entry.png" />
-    <Content Include="Book\upArrow.png" />
+    <Content Include="Book\page2.html" />
+    <Content Include="Book\Page\blank.gif" />
+    <Content Include="Book\Page\collapsed.png" />
+    <Content Include="Book\Page\custom.css" />
+    <Content Include="Book\Page\default-logo.png" />
+    <Content Include="Book\Page\default.css" />
+    <Content Include="Book\Page\expanded.png" />
+    <Content Include="Book\Page\helpman_navigation.js" />
+    <Content Include="Book\Page\helpman_settings.js" />
+    <Content Include="Book\Page\helpman_topicinit.js" />
+    <Content Include="Book\Page\highlight.js" />
+    <Content Include="Book\Page\jquery.js" />
+    <Content Include="Book\Page\leftArrow.png" />
+    <Content Include="Book\Page\nsh.js" />
+    <Content Include="Book\Page\nt8_contextids.js" />
+    <Content Include="Book\Page\nt_custom.js" />
+    <Content Include="Book\page1.html" />
+    <Content Include="Book\Page\rightArrow.png" />
+    <Content Include="Book\Page\topic_entry.png" />
+    <Content Include="Book\Page\upArrow.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
