@@ -14,6 +14,12 @@ namespace Books
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+            name: "openPage",
+            url: "Book/Page/{page}",
+            defaults: new { controller = "Book", action = "Page", page = UrlParameter.Optional }
+        );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

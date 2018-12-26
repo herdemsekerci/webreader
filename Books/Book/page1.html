@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html class="nonscroll">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="custom.css" rel="stylesheet" />
+    <link href="default.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style type="text/css" media="screen">
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #FFFFFF;
+            line-height: 1.15;
+        }
+
+        div#printheader {
+            display: none;
+        }
+
+        #idheader {
+            width: 100%;
+            height: auto;
+            padding: 0;
+            margin: 0;
+        }
+
+        #idcontent {
+            position: relative;
+        }
+
+        #callout-table, #overview-table {
+            display: block;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        #callout-icon {
+            display: block;
+            position: absolute;
+            top: -11px;
+            left: -11px;
+        }
+
+        #callout-icon-flag {
+            display: block;
+            position: absolute;
+            top: -11px;
+            left: -8px;
+        }
+
+        #callout-table a {
+            text-decoration: none;
+            color: blue;
+        }
+
+            #callout-table a:visited {
+                text-decoration: none;
+                color: blue;
+            }
+
+        #overview-table a {
+            text-decoration: none;
+            color: black;
+        }
+
+            #overview-table a:visited {
+                text-decoration: none;
+                color: black;
+            }
+
+            #callout-table a:hover, #overview-table a:hover {
+                text-decoration: underline;
+            }
+
+        #switchtoggles {
+            text-align: right;
+            padding: 0 5px 0 0;
+            font-size: 90%;
+        }
+
+        p.help-url {
+            margin: 20px 0 5px 0;
+            text-align: center;
+            font-size: 80%;
+            text-decoration: none;
+        }
+
+        .sync-toc {
+            color: #ffffff;
+            font-size: 8pt;
+            font-weight: bold;
+            display: none;
+        }
+
+            .sync-toc a {
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                .sync-toc a:visited {
+                    color: #ffffff;
+                }
+
+                .sync-toc a:hover {
+                    text-decoration: underline;
+                }
+
+        .p_ToggleHeading:active {
+            box-shadow: 0px 0px 4px #9ecaed;
+        }
+
+        .Needs {
+            border-color: #008000 !important;
+            background-color: #f3f9f4;
+        }
+
+        .Under {
+            border-color: #ffcc00 !important;
+            background-color: #fffdf6;
+        }
+    </style>
+    <noscript>
+        <style type="text/css">
+            html, body {
+                overflow: auto;
+            }
+        </style>
+    </noscript>
+    <style type="text/css" media="print">
+        span.f_Heading1 {
+            color: black;
+        }
+
+        #idheader, #printheader img {
+            display: none;
+        }
+
+        #printheader {
+            display: block;
+            margin-top: 20px;
+        }
+
+        #idcontent {
+            margin-top: 10px;
+            position: relative;
+        }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+</head>
+<body class="nonscroll">
+    <div id="idheader">
+        <div id="idheaderbg">
+            <table style="width:100%;border:none;margin:0px;background:#A41E22" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr valign="bottom">
+                        <td align="left" valign="bottom" class="topichead">
+                            <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="index.html?8_0_16_3.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+                            <p class="crumbs" id="idnav">
+                                <b>Navigation:</b>&nbsp;
+
+                                <a href="release_notes.htm">Release Notes</a>&nbsp;&gt;
+                            </p>
+                            <p class="p_HeadingTopic"><span class="f_HeadingTopic">1</span></p>
+
+                        </td>
+                        <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+
+                            <a href="release_notes.htm"><img name="prev" src="leftArrow.png" border="0" alt="Previous page"></a>
+
+                            <a href="release_notes.htm"><img name="main" src="upArrow.png" border="0" alt="Return to chapter overview"></a>
+                            <a href="8_0_15_1.htm"><img name="next" src="rightArrow.png" border="0" alt="Next page"></a>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- PM review header
+                    <div id="status" class="Complete" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+                      <b>Complete</b>: <span id="explain"></span>
+                    </div>
+            -->
+            <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+
+        </div>
+    </div>
+    <div id="idcontent" class="nonscroll">
+        <div id="innerdiv">
+            <p>Phasellus consequat lorem id pellentesque mattis. Donec eget maximus libero. Suspendisse lacinia justo quis leo aliquam, ut facilisis ex sollicitudin. Aliquam faucibus molestie sapien ut consequat. Ut commodo scelerisque ligula eu pulvinar. Nunc at efficitur dui. Suspendisse dignissim, arcu sed efficitur maximus, elit mi dictum justo, ut mollis magna neque non dui. Nulla facilisi. Nulla tempus molestie porttitor. Ut ut sem nulla. Cras fermentum facilisis diam, at dapibus felis iaculis pharetra.</p>
+            <p>Proin enim massa, placerat a nunc et, aliquet porttitor erat. Quisque id magna ullamcorper, porta nulla ut, cursus ex. Aenean sit amet suscipit felis, lacinia lacinia dui. Integer dictum ligula et odio lacinia, eu venenatis ex bibendum. Nunc viverra imperdiet dui, in eleifend sem pellentesque sit amet. Cras pretium elementum lectus nec ornare. Vestibulum viverra tortor ut nulla accumsan, sit amet condimentum nulla tincidunt. Maecenas condimentum urna non urna faucibus, vestibulum tristique nisi porttitor. Ut eu nulla facilisis, venenatis mauris ut, euismod tortor. Praesent dignissim vitae tellus id auctor.</p>
+          <p>Duis tempus luctus euismod. Proin feugiat enim enim, vitae molestie elit ultrices vel. Nunc sagittis est ac nisi venenatis maximus. Curabitur sagittis egestas blandit. Etiam ligula lectus, blandit vitae sapien ut, vestibulum facilisis eros. Cras gravida efficitur lectus id aliquet. Donec condimentum tortor mi. Sed feugiat, erat vel finibus rutrum, lorem mauris volutpat lectus, a interdum erat massa vel nulla. Nulla facilisi. Aliquam luctus ipsum vitae vulputate tincidunt. Nulla rhoncus rutrum eros at gravida.</p>
+        </div>
+
+    </div>
+
+
+    <script>
+
+        $(function () {
+            var parent = $(window.parent);
+
+            var recalculate = () => {
+
+                var idcontent = $("#idcontent");
+                var idheader = $("#idheader");
+                idcontent.height(parent.height() - idheader.height())
+            }
+
+            recalculate();
+
+            $(parent).resize(function () {
+                recalculate();
+            });
+
+        })
+    </script>
+</body>
+</html>
